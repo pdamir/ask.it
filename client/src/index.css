@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  margin-top: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.questions-wrapper a:hover {
+  color: #ffffffc9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.questions-wrapper a {
+  color: #ffffff;
+}
+
+.question-footer,
+.navbar,
+.sidebar.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.loading-bar {
+  height: 5px;
+  margin-top: 78px;
+  top: 0;
+  color: #f39c12;
+  background-color: #f39c12;
+  position: fixed;
+  z-index: 9999;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+button.feedback {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.Toastify__progress-bar {
+  opacity: 0 !important;
+}
+
+.toast-success {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 0.25rem !important;
+  background-color: #18bc9c !important;
+  color: #fff !important;
+}
+
+.toast-error {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 0.25rem !important;
+  background-color: #e74c3c !important;
+  color: #fff !important;
+}
+
+.toast-wrapper {
+  margin-top: 64px !important;
+}
